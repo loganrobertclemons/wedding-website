@@ -47,7 +47,7 @@ const courses = [
     }, {
         title: 'Numerical Analysis',
         number: 'MATH 4670',
-        link: 'hhttp://catalog.apsu.edu/preview_course_nopop.php?catoid=22&coid=56359/',
+        link: 'http://catalog.apsu.edu/preview_course_nopop.php?catoid=22&coid=56359/',
         univerity: 'Austin Peay State University',
     }, {
         title: 'Linear Algebra',
