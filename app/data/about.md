@@ -13,4 +13,5 @@ I currently work for DaVita Inc ([davita.com](https://www.davita.com/about)) as 
 - Fighting games
 - Collecting music
 - Horror media
+- Building computers
 - My wife

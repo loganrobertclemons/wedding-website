@@ -69,5 +69,7 @@ const courses = [
         number: 'ENG 402',
         link: 'https://www.jmu.edu/english/undergraduate/course-archive/courses-2014-fall.shtml/',
         univerity: 'James Madison University',
-    }
-]
+    },
+];
+
+export default courses;

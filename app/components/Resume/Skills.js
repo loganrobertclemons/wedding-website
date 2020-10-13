@@ -73,8 +73,8 @@ class Skills extends Component {
                 <div className="link-to" id="skills" />
                 <div className="title">
                     <h3>Skills</h3>
-                    <p>Here is a *mostly* honest overview of my skills.
-                    I am probably higher in some and lower in others.
+                    <p>Here is where I think my skills are at right now.
+                    I have probably way overestimated myself in some things, and slightly underestimated myself in others.
                     It's hard to judge yourself accurately!
           </p>
                 </div>

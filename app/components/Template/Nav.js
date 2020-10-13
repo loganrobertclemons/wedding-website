@@ -12,7 +12,7 @@ const Nav = () => (
                 <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
             </Link>
             <header>
-                <h2>Michael D&apos;Angelo</h2>
+                <h2>Logan Clemons</h2>
                 <p><a href="mailto:loganrclemons@gmail.com">loganrclemons@gmail.com</a></p>
             </header>
         </section>
@@ -37,7 +37,7 @@ const Nav = () => (
                     </li>
                 ))}
             </ul>
-            <p className="copyright">&copy; Logan Clemons <Link to="/">loganrclemons.com</Link>.</p>
+            <p className="copyright">&copy; <Link to="/">loganrclemons.com</Link>.</p>
         </section>
     </section>
 );

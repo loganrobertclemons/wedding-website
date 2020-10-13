@@ -127,14 +127,49 @@ const skills = [{
     category: ['Data Engineering', 'Python'],
 },
 {
-    title: 'Mypy',
-    competency: 1,
-    category: ['Python'],
-},
-{
     title: 'Pylint',
     competency: 2,
     category: ['Data Engineering', 'Python'],
+},
+{
+    title: 'Puppet',
+    competency: 2,
+    category: ['Tools'],
+},
+{
+    title: 'Hashicorp Vault',
+    competency: 3,
+    category: ['Tools'],
+},
+{
+    title: 'Ansible',
+    competency: 2,
+    category: ['Tools'],
+},
+{
+    title: 'Atlassian Tool Suite',
+    competency: 5,
+    category: ['Tools'],
+},
+{
+    title: 'Prometheus/Grafana',
+    competency: 4,
+    category: ['Data Engineering', 'Tools'],
+},
+{
+    title: 'Dynatrace',
+    competency: 2,
+    category: ['Data Engineering', 'Tools'],
+},
+{
+    title: 'Go',
+    competency: 3,
+    category: ['Languages'],
+},
+{
+    title: 'C#',
+    competency: 2,
+    category: ['Languages'],
 },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
