@@ -27,12 +27,12 @@ app.use(basePath, express.static(path.join(__dirname, '../public')));
 routes(app); // initialize routes
 
 if (!module.parent) {
-    app.listen(port, '0.0.0.0', (err) => {
-        if (err) {
-            console.error('application-err', err);
-        }
-        console.info(`Started in ${env === 'development' ? env : 'production'} mode on port ${port}.`);
-    });
+  app.listen(port, '0.0.0.0', (err) => {
+    if (err) {
+      console.error('application-err', err);
+    }
+    console.info(`Started in ${env === 'development' ? env : 'production'} mode on port ${port}.`);
+  });
 }
 
 export default app;

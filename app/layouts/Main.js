@@ -8,31 +8,31 @@ import Nav from '../components/Template/Nav';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Main = (props) => (
-    <>
-        <Analytics />
-        <ScrollToTop />
-        <Helmet titleTemplate="%s | Logan Clemons" defaultTitle="Logan Clemons" />
-        <div id="wrapper">
-            <Header />
-            <div id="main">
-                {props.children}
-            </div>
-            {props.fullPage ? null : <Nav />}
-        </div>
-    </>
+  <>
+    <Analytics />
+    <ScrollToTop />
+    <Helmet titleTemplate="%s | Logan Clemons" defaultTitle="Logan Clemons" />
+    <div id="wrapper">
+      <Header />
+      <div id="main">
+        {props.children}
+      </div>
+      {props.fullPage ? null : <Nav />}
+    </div>
+  </>
 );
 
 Main.propTypes = {
-    children: PropTypes.oneOfType([
-        PropTypes.arrayOf(PropTypes.node),
-        PropTypes.node,
-    ]),
-    fullPage: PropTypes.bool,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]),
+  fullPage: PropTypes.bool,
 };
 
 Main.defaultProps = {
-    children: null,
-    fullPage: false,
+  children: null,
+  fullPage: false,
 };
 
 export default Main;
