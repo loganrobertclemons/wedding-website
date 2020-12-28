@@ -8,13 +8,18 @@ const PersonalStats = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1991-03-06T01:24:00');
+    const firstDateTime = new Date('2017-07-13T18:30:00');
+    const anniversaryTime = new Date('2020-11-07T14:00:00')
     setData({
       ...data,
       age: {
-        label: 'Current age',
-        value: ((Date.now() - birthTime) / divisor).toFixed(11),
+        label: 'How many years we have been together',
+        value: ((Date.now() - firstDateTime) / divisor).toFixed(11),
       },
+      anniversary: {
+        label: 'How many years since our covid wedding',
+        value: ((Date.now() - anniversaryTime) / divisor).toFixed(11)
+      }
     });
   };
 
@@ -25,7 +30,7 @@ const PersonalStats = () => {
 
   return (
     <>
-      <h3>Some stats about me</h3>
+      <h3>Some stats about us</h3>
       <Table data={Object.keys(data).map((key) => data[key])} />
     </>
   );

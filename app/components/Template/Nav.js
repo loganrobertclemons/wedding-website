@@ -13,16 +13,16 @@ const Nav = () => (
       </Link>
       <header>
         <h2>Logan Clemons</h2>
-        <p><a href="mailto:loganrclemons@gmail.com">loganrclemons@gmail.com</a></p>
+        <p><a href="mailto:clemonswedding2020@gmail.com">clemonswedding2020@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Logan Clemons. I am an SRE and I would like to build stuff for you.</p>
+      <p>Hi, We&apos;re getting married (again)! Check out more info 👇</p>
       <ul className="actions">
         <li>
-          {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {window.location.pathname !== `${BASE_PATH}/about` ? <Link to="/about" className="button">Learn More</Link> : <Link to="/venues" className="button">Venue Information</Link>}
         </li>
       </ul>
     </section>

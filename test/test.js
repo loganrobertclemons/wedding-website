@@ -8,7 +8,7 @@ import { pages, randomString } from './helpers';
 
 require('chai').should();
 
-const port = process.env.PORT || 7999;
+const port = process.env.PORT || 8000;
 
 describe('Page Load Tests:', async function () {
   this.timeout(120000);

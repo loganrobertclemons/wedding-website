@@ -8,18 +8,17 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2><Link to="/">About this site</Link></h2>
-          <p>A react app written with modern Javascript.</p>
+          <h2><Link to="/">Logan &amp; Cameron's wedding website</Link></h2>
+          <p>Learn more about our wedding.</p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
+      <p> Welcome to our wedding website. Please feel free to read more <Link to="/about">about us</Link>,
+        or you can check out information about our {' '}
+        <Link to="/venues">venues</Link>, {' '}
         view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+        or <Link to="/contact">contact</Link> us.
       </p>
-      <p> I moved this to GitHub! Source available <a href="https://github.com/loganrobertclemons/lrc-portfolio">here</a>.</p>
+      <p>Source available <a href="https://github.com/loganrobertclemons/wedding-website">here</a>.</p>
     </article>
   </Main>
 );

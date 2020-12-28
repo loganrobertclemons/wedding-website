@@ -16,8 +16,8 @@ const pages = [
     heading: 'ABOUT ME',
   },
   {
-    route: '/projects',
-    title: 'Projects | Logan Clemons',
+    route: '/venues',
+    title: 'Venues | Logan Clemons',
     heading: 'PROJECTS',
   },
   {

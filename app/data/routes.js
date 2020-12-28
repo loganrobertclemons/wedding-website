@@ -9,12 +9,8 @@ const data = [
     label: 'About',
   },
   {
-    path: '/resume',
-    label: 'Resume',
-  },
-  {
-    path: '/projects',
-    label: 'Projects',
+    path: '/venues',
+    label: 'Venues',
   },
   {
     path: '/stats',
