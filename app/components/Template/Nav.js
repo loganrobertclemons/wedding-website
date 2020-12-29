@@ -9,10 +9,10 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
+        <img src={`${BASE_PATH}/images/engagement/lc8.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Logan Clemons</h2>
+        <h2>Logan &amp; Cameron Wedding!</h2>
         <p><a href="mailto:clemonswedding2020@gmail.com">clemonswedding2020@gmail.com</a></p>
       </header>
     </section>
